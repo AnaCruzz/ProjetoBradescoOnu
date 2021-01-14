@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <title>Minha página</title>
+    <title>Paz, justiça e instituições eficazes</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -16,8 +16,8 @@
 
 <body class="bg-light">
     <!-- Barra de navegação -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
-        <a class="navbar-brand text-light" href="#">Menu</a>
+    <nav class="sticky-top navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand text-light" href="#">Home</a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
             aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
@@ -26,23 +26,24 @@
 
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link text-light" href="#">Home <span class="sr-only">(página atual)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#contato">Contato</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="#">Contato</a>
+                    <a class="nav-link text-light" target="_blank" href="https://www.unicef.org/brazil/">Notícias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" target="_blank" href="https://brazil.generation.org/">Sobre nós</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Redes Sociais
                     </a>
-                    <div class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item text-light" href="#">Instagram</a>
+                    <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item text-light" href="#">Facebook</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-light" href="#">LinkedIn</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item text-light" href="#">Git Hub</a>
+                        <a class="dropdown-item text-light" target="_blank" href="https://github.com/JoaoPauloO/ProjetoBradescoOnu">Git Hub</a>
                     </div>
                 </li>
         </div>
@@ -50,21 +51,30 @@
     <!-- Barra de navegação -->
 
     <!-- carousel -->
-    <div class="container-fluid mt-2">
+    <div class="container mt-3">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100 rounded image-responsive img-slide" src="assets/img/img-1.png"
-                        alt="Primeiro Slide">
+                    <img class="d-block w-100 rounded image-responsive img-slide"
+                        src="assets/img/justitia-2597016_1280.jpg" alt="Primeiro Slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 rounded image-responsive img-slide" src="assets/img/img-2.png"
-                        alt="Segundo Slide">
+                    <img class="d-block w-100 rounded image-responsive img-slide"
+                        src="assets/img/clay-banks-N32JLRTANCQ-unsplash.jpg" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 rounded image-responsive img-slide"
+                        src="assets/img/equity-2355700_1280.jpg" alt="Terceiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 rounded image-responsive img-slide"
+                        src="assets/img/image-1004414_1280.jpg" alt="Quarto Slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -79,96 +89,132 @@
     </div>
     <!-- carousel -->
 
-    <!-- Função de um dev web -->
-    <h2 class="text-center mt-4">O que faz um desenvolver Web full stack?</h2>
-    <div class="row mt-2 d-flex justify-content-center">
-        <div class="col-md-6">
-            <p class="text-justify">
-                Em algumas empresas o desenvolvedor full stack é responsável por, além de desenvolver as funcionalidades
-                dos sistemas, levantar os requisitos junto ao cliente. Então também é importante que ele consiga
-                entender as regras de negócio na qual o projeto está inserido, identificar as necessidades e demandas.
-                Uma vez definido o que deve ser feito, ele irá começar o desenvolvimento da solução. Algumas empresas
-                possuem equipes que são especializadas em determinada área, porém isso não impede que o desenvolvedor
-                full stack tenha conhecimento do que ocorre ali e que consiga participar do processo e trabalhar em
-                conjunto. Já em outras empresas, ele é o responsável por desenvolver o projeto do início ao fim, e de
-                realizar as futuras manutenções e evoluções do mesmo. Sempre que houver alguma dúvida muito específica
-                ou um problema complexo, nada impede o desenvolvedor de recorrer a alguém mais experiente naquele
-                assunto.
-
-                As tarefas do dia a dia de um desenvolvedor full stack dependem muito do projeto que ele está
-                trabalhando. Caso o projeto esteja com muitas tarefas atrasadas no back-end por exemplo, é normal que
-                ele passe mais tempo trabalhando ali.
-
-                Claro que a rotina de cada um é diferente. Muitos desenvolvedores full stack também passam grande parte
-                do dia dando manutenção em um sistema já existente, corrigindo bugs ou fazendo melhorias. Um problema
-                que ele resolve frequentemente pode ser uma interação ruim da interface com o usuário, pode ser um erro
-                de lógica em uma regra de negócio, pode ser uma lentidão excessiva de uma consulta no banco de dados ou
-                pode ser um grande consumo de memória no servidor, por exemplo.
-            </p>
-        </div>
+    <!-- Sobre justiça -->
+    <h2 class="text-center mt-4 text-uppercase">Paz, justiça e instituições eficazes</h2>
+    <div class="container mt-3">
+        <ul>
+            <li class="text-justify mb-2">
+                Promover sociedades pacíficas e inclusivas para o desenvolvimento sustentável, proporcionar o acesso à
+                justiça para todos e construir instituições eficazes, responsáveis e inclusivas em todos os níveis
+            </li>
+            <li class="text-justify mb-2">
+                Reduzir significativamente todas as formas de violência e as taxas de mortalidade com ela relacionadas,
+                em
+                todos os lugares.
+            </li>
+            <li class="text-justify mb-2">
+                Acabar com o abuso, exploração, tráfico e todas as formas de violência e tortura contra as crianças.
+            </li>
+            <li class="text-justify mb-2">
+                Promover o Estado de Direito, ao nível nacional e internacional, e garantir a igualdade de acesso à
+                justiça para todos.
+            </li>
+            <li class="text-justify mb-2">
+                Até 2030, reduzir significativamente os fluxos ilegais financeiros e de armas, reforçar a recuperação e
+                devolução de recursos roubados e combater todas as formas de crime organizado.
+            </li>
+            <li class="text-justify mb-2">
+                Reduzir substancialmente a corrupção e o suborno em todas as suas formas.
+            </li>
+            <li class="text-justify mb-2">
+                Desenvolver instituições eficazes, responsáveis e transparentes em todos os níveis.
+            </li>
+            <li class="text-justify mb-2">
+                Garantir a tomada de decisão responsável, inclusiva, participativa e representativa em todos os níveis.
+            </li>
+            <li class="text-justify mb-2">
+                Ampliar e fortalecer a participação dos países em desenvolvimento nas instituições de governanção
+                global.
+            </li>
+            <li class="text-justify mb-2">
+                Até 2030, fornecer identidade legal para todos, incluindo o registro de nascimento
+            </li>
+            <li class="text-justify mb-2">
+                Assegurar o acesso público à informação e proteger as liberdades fundamentais, em conformidade com a
+                legislação nacional e os acordos internacionais.
+            </li>
+            <li class="text-justify mb-2">
+                Fortalecer as instituições nacionais relevantes, inclusive através da cooperação internacional, para a
+                construção de melhor capacidade de resposta em todos os níveis, em particular nos países em
+                desenvolvimento, para a prevenção da violência e o combate ao terrorismo e ao crime.
+            </li>
+            <li class="text-justify mb-2">
+                Promover e fazer cumprir leis e políticas não discriminatórias para o desenvolvimento sustentável.
+            </li>
+        </ul>
     </div>
-    <!-- Função de um dev web -->
+    <!-- Sobre justiça -->
 
-    <!-- informações sobre as tecnologias -->
-    <h2 class="text-center mb-4">Tecnologias Utilizadas</h2>
+    <!-- Direito e tecnologia -->
+    <h2 class="text-center mt-4 text-uppercase">Direito e tecnologia</h2>
+    <div class="container">
+        <p class="text-justify">
+            
+        </p>
+    </div>
+    <!-- Direito e tecnologia -->
 
-    <div class="row mt-2 d-flex justify-content-center">
-        <div class="col-md-2 border border-warning rounded">
-            <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="-blank">
-                <img class="img-tecnolgias image-responsive mt-3 mb-3" src="assets/img/javascript.png" alt="">
-            </a>
-        </div>
-
-        <div class="col-md-2 border border-dark rounded ml-2">
-            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="-blank">
-                <img class="img-tecnolgias image-responsive mt-3 mb-3" src="assets/img/html.png" alt="">
-            </a>
-        </div>
-
-        <div class="col-md-2 border border-primary rounded ml-2">
-            <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="-blank">
-                <img class="img-tecnolgias image-responsive mt-3 mb-3" src="assets/img/css.png" alt="">
-            </a>
-        </div>
+    <!-- Metalidades e habilidades -->
+    <h2 class="text-center mt-4 text-uppercase">Habilidades</h2>
+    <div class="container">
+        <p class="text-justify">
+            <h4>Comunicação</h4>
+            <ul>
+                <li>
+                    BHla blad-asdpaklodw
+                </li>
+            </ul>
+            <h4>Trabalho em equipe</h4>
+            <ul>
+                <li>
+                    BHla blad-asdpaklodw
+                </li>
+            </ul>
+        </p>
     </div>
 
-    <div class="row mt-2 d-flex justify-content-center">
-        <div class="col-md-2 border border-info rounded">
-            <a href="https://www.java.com/pt-BR/download/help/whatis_java.html" target="-blank">
-                <img class="img-tecnolgias mt-3 mb-3" src="assets/img/java.png" alt="">
-            </a>
-        </div>
-
-        <div class="col-md-2 border border-primary rounded ml-2">
-            <a href="https://www.opservices.com.br/o-que-e-docker/" target="-blank">
-                <img class="img-tecnolgias mt-3 mb-3" src="assets/img/docker.png" alt="">
-            </a>
-        </div>
-
-        <div class="col-md-2 border border-succes rounded ml-2">
-            <a href="https://canaltech.com.br/software/o-que-e-api/" target="-blank">
-                <img class="img-tecnolgias mt-3 mb-3" src="assets/img/api.png" alt="">
-            </a>
-        </div>
+    <h2 class="text-center mt-4 text-uppercase">Mentalidades</h2>
+    <div class="container">
+        <p class="text-justify">
+            <h4>Responsabilidade pessoal</h4>
+            <ul>
+                <li>
+                    BHla blad-asdpaklodw
+                </li>
+            </ul>
+        </p>
     </div>
-    <!-- informações sobre as tecnologias -->
+    <!-- Metalidades e habilidades -->
 
-     <!-- Jubotrom -->
-     <div class="jumbotron ml-3 mt-4 mr-3">
-        <h1 class="display-5">Venha ser um Dev!</h1>
+    <!-- Vídeo -->
+    <h2 class="text-center mt-4 mb-3 text-uppercase">Bate-papo</h2>
+    <div class="container d-flex justify-content-center">
+        <iframe width="660" height="315" src="https://www.youtube.com/embed/cYMVlnfcfmY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
+    </div>
+
+    <p class="text-center mt-3">
+        <strong>Entrevista:</strong> Laise Galvão. <strong>Direção:</strong> Ana Cruz. <strong>Tema:</strong> Paz, justiça e instituições eficazes.
+    </p>
+    <!-- Vídeos -->
+
+    <!-- Jubotrom -->
+    <div class="jumbotron ml-3 mt-4 mr-3">
+        <h1 class="display-5">Fale com a Laise Galvão!</h1>
         <p class="lead">
             Vamos ajudar você a aprender as habilidades técnicas para ser um desenvolvedor de sucesso com muitas sessões
             interativas e práticas.
         </p>
         <hr class="my-4">
         <p>O sucesso é a soma de pequenos esforços unidos dia após dia..</p>
-        <a class="btn btn-primary btn-lg" href="https://brazil.generation.org/" target="_blank" role="button">Saber
-            mais</a>
+        <a class="btn btn-primary btn-lg" href="" target="_blank" role="button">
+            Saiba mais
+        </a>
     </div>
     <!-- Jubotrom -->
 
     <!-- Fomulário -->
-    <h3 class="text-center mt-3 mb-3">Alguma dúvida? Entre em contato!</h3>
+    <h3 id="contato" class="text-center mt-3 mb-3">Alguma dúvida? Entre em contato!</h3>
     <div class="row mt-3 mb-3 d-flex justify-content-center">
         <form class="col-md-4">
             <div class="form-group">
